@@ -5,7 +5,7 @@
     },
     "commands": {
         "snap": {
-            "description"; "",
+            "description"; "Install deepseek-r1",
             "commands": {
                 "install": {
                     "handler": [
