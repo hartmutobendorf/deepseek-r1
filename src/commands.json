@@ -4,7 +4,24 @@
         "isLoggedIn": "false"
     },
     "commands": {
-        "status": {
+        "snap": {
+            "description"; "",
+            "commands": {
+                "install": {
+                    "handler": [
+                        {
+                            "component": "progressBar",
+                            "output": "Adding task...",
+                            "duration": 1500
+                        },
+                        {
+                            "component": "text",
+                            "output": "Task '{{taskName}}' added with {{priority}} priority."
+                        }
+                    ]
+                }
+            },
+        "deepseek-r1": {
             "description": "Add a new task or subtask",
             "commands": {
                 "task": {
